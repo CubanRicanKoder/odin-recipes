@@ -1,0 +1,54 @@
+@media screen and (max-width: 800px) {
+  #pic {
+    width: 50%;
+  }
+}
+
+body {
+  background: green;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  max-width: 100%;
+  margin-top: 60px;
+  font-family: monospace;
+  font-style: italic;
+  /* display: flex; */
+}
+
+h2 {
+  text-align: center;
+}
+
+#p1 {
+  text-align: center;
+}
+
+#navbar {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  padding: 5px 5px;
+}
+
+#pic3 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  border: 2px dashed red;
+  /* text-align: center; */
+  /* justify-content: stretch; */
+}
